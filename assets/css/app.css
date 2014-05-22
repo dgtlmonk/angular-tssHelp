@@ -1,0 +1,76 @@
+html {
+    fill: white;
+    height:100%;
+    background:white;
+    color:#666;
+    font-size:6em;
+}
+
+.container {
+   font-family: 'Pontano Sans', sans-serif;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555555;
+    font-weight:bold;
+}
+
+.navbar-brand {
+        padding:4px;
+}
+
+.navbar-collapse { 
+  padding:6px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: transparent;
+}
+
+
+.navbar-default {
+    background-color: transparent;
+    border:none;
+}
+
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size:18px;
+    color:green;
+    line-height: 1.42857143;
+}
+
+ .nav {
+     font-size:16px;
+ }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #977EBD;
+ 
+ }
+ 
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+        text-decoration: none;
+        color: currentColor;
+        background-color: green;
+}
+
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background:transparent;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    text-decoration:none;
+    color:#fff;
+    background-color:green;
+}

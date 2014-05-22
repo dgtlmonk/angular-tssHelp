@@ -1,0 +1,18 @@
+{
+  "name": "tss-help",
+  "main": "app.js",
+  "version": "0.0.0",
+  "authors": [
+    "Joel Pablo <joel.pablo@digitalmonkstudio.com>"
+  ],
+  "description": "Tech Support Help Center",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        block head
+        title TSS Help Center
+        != css('bootstrap.min')
+        != css('app')
+        link(href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css')
+
+      
+    body(ng-app="tssHelp")
+        block content
+
+        != js('jquery')
+        != js('bootstrap.min')     
+        != js('angular.min')
+        != js('angular-ui-router.min')
+        != js('angular-sanitize.min')
+        != js('app')
