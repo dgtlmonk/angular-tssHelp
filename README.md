@@ -1,4 +1,4 @@
-express-js_boilerplate
+Express + Angular + Jade - Help Center
 ======================
 
-with Jade a template engine
+node app
