@@ -5,7 +5,12 @@ angular.module('tssHelp').config( function ($stateProvider, $urlRouterProvider){
         .state('home',{
                 url:'',
                 templateUrl:'partials/home/home.html'
+        })
+         .state('ad types',{
+                url:'/ad-types',
+                templateUrl:'partials/ad-types/ad-types.html'
         });
+
 })
 
 .run(function($rootScope){

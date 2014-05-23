@@ -1,0 +1,21 @@
+<div class="col-md-12 dc-ad-types" ng-controller="adTypesCtrl" id="accordion">
+    <h3 id="section_heading">DoubleClick Ad Types</h3>
+
+    <div id="panel" class="panel panel-default" ng-repeat="ads in adTypes track by ads.id">
+            <div class="panel-heading">
+                <a ng-href="{{ ads.url }}" target="_blank">
+                    <small class="pull-right">Guide <span class="glyphicon glyphicon-new-window"></span></small>
+                </a>
+
+                <a data-toggle="collapse" data-parent="#accordion" ng-href="#ad-type-{{ads.tag}}">
+                    <h4 class="panel-title">{{ ads.name }}</h4>
+                </a>
+            </div>
+            <div id="ad-type-{{ads.tag}}" ng-class="{'panel-collapse collapse in' : $first==true, 'panel-collapse collapse' : $first===false }">
+                <div class="panel-body">
+                    <div style="margin-bottom:4px;"> <span class="glyphicon glyphicon-cog"></span> <strong>{{ ads.as }} </strong></div>
+                    <div ng-bind-html="ads.desc"></div>
+                </div>
+            </div>
+    </div>
+</div>
