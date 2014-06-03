@@ -6,6 +6,10 @@ angular.module('tssHelp').config( function ($stateProvider, $urlRouterProvider){
                 url:'',
                 templateUrl:'partials/home/home.html'
         })
+        .state('home-deep-link',{
+                url:'/',
+                templateUrl:'partials/home/home.html'
+        })
          .state('ad types',{
                 url:'/ad-types',
                 templateUrl:'partials/ad-types/ad-types.html'
